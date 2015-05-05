@@ -29,7 +29,6 @@ int main() {
     while (cnt < 10001) {
         if (isPrime(x)) {
             cnt += 1;
-            // printf("cnt: %d, x: %ld\n", cnt, x);
         }
         x += 1;
     }
